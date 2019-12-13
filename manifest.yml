@@ -27,3 +27,9 @@
 #   # Require the installation of other skills before installing this skill
 #   skill:
 #     - my-other-skill
+dependencies:
+    system:
+        apt-get: shairport-sync
+
+    exes:
+      - shairport-sync
